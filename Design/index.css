@@ -1,0 +1,19 @@
+/*body/containers*/
+.container{
+    width: 80%;
+    margin: 0 auto;
+    background-color: #748099;
+    display: flex;
+    flex-wrap: wrap;
+}
+.top-container{
+    width: 90%;
+}
+.container2{
+    display: flex;
+    flex-wrap: wrap;
+}
+/*content parts*/
+.blocks{
+    width: 30%;
+}
