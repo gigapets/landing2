@@ -49,7 +49,6 @@ border-spacing: 0;
 }
 
 /*body and containers*/
-
 .container{
     width: 100%;
     background-color: #748099;
@@ -74,14 +73,17 @@ border-spacing: 0;
     font-size: 1.5rem;
     color: white;
     
+    
 }
 #red{
     background-color: rgb(253, 125, 253);
-    border: 1px solid rgb(253, 125, 253);
+    border: 1px solid rgb(150, 58, 150);
+    box-shadow: 4px 5px rgb(121, 44, 121);
 }
 #green{
     background-color: rgb(81, 226, 81) ;
-    border: 1px solid  rgb(81, 226, 81);
+    border: 1px solid  rgb(20, 75, 20);
+    box-shadow: 4px 5px #0e4d13;
 }
 .top-container{
     width: 100%;
@@ -94,14 +96,15 @@ border-spacing: 0;
     width: 60%;
 }
 .container2{
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center
 }
 /*content parts*/
 .blocks{
-    width: 30%;
+    width: 97%;
 }
 /*navigation*/
 .nav-bar{
@@ -126,4 +129,31 @@ border-spacing: 0;
 }
 .submenu{
     display: none;
+    
+}
+.login{
+    position: relative;
+    left: 40%;
+}
+/*cards*/
+.card{
+    background-color: aliceblue;
+    padding: .4rem;
+    margin: .5rem;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 25px;
+}
+.card-image{
+    width: 90%;
+    padding-top: .5rem;
+    height: 200px;
+    border-radius: 15px;
+}
+.card .card-text{
+    font-size: 2rem;
+    text-decoration: underline;
+    color:#DE9590;
 }
