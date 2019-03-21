@@ -72,8 +72,9 @@ border-spacing: 0;
     margin: 1rem;    
     font-size: 1.5rem;
     color: white;
-    
-    
+}
+.expand{
+    background-color: #71CBC4;
 }
 #red{
     background-color: rgb(253, 125, 253);
@@ -95,6 +96,7 @@ border-spacing: 0;
 .top-container p{
     width: 60%;
 }
+/* second container*/
 .container2{
     width: 90%;
     margin: 0 auto;
@@ -102,12 +104,18 @@ border-spacing: 0;
     flex-wrap: wrap;
     justify-content: center
 }
+/*fourth container*/
+.container4{
+    width:90%;
+    margin: 0 auto;
+
+}
 /*content parts*/
 .blocks{
     width: 97%;
 }
 /*navigation*/
-.nav-bar{
+#nav-bar{
     display: flex;
     background-image: radial-gradient(rgba(241, 100, 211, 0.753), rgb(235, 57, 205), rgb(252, 157, 223)) ;
     width: 100%;
@@ -116,7 +124,14 @@ border-spacing: 0;
     align-items: center;
     padding: 1rem;
 }
-
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.sticky + .top-container {
+    padding-top: 6.2rem;
+}
 .menu a{
     font-size: 1.3rem;
     color: white;
@@ -133,7 +148,7 @@ border-spacing: 0;
 }
 .login{
     position: relative;
-    left: 40%;
+    left: 80%;
 }
 /*cards*/
 .card{
