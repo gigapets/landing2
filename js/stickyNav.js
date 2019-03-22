@@ -3,7 +3,7 @@ window.onscroll = () => {
     var stick = navBar.offsetTop;
     if (window.pageYOffset >= stick) {
         navBar.classList.add("sticky")
-      } else {
+    } else {
         navBar.classList.remove("sticky");
-      }
+    }
 }

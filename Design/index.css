@@ -60,6 +60,11 @@ border-spacing: 0;
     font-size: 3rem;
     padding: 1rem;
 }
+.container h2{
+    font-size: 3rem;
+    padding: 1rem;
+    color: white;
+}
 .container p{
     font-size: 1.2rem;
     padding: 1rem;
@@ -71,10 +76,22 @@ border-spacing: 0;
     padding: 1rem;
     margin: 1rem;    
     font-size: 1.5rem;
+    
+}
+.container button a{
     color: white;
+    text-decoration: none;
 }
 .expand{
     background-color: #71CBC4;
+    border-radius: 15px;
+    font-size: 1.2rem;
+    padding: 1rem;
+}
+.expand:hover{
+    background-color: aliceblue;
+    color: #71CBC4;
+    cursor: url('../Assets/fruitnveg64wh37.png'), pointer;
 }
 #red{
     background-color: rgb(253, 125, 253);
@@ -88,11 +105,13 @@ border-spacing: 0;
 }
 .top-container{
     width: 100%;
-    height: 20rem;
-    background-image: radial-gradient(rgba(241, 100, 211, 0.753), rgb(235, 57, 205), rgb(252, 157, 223)) ;/*url('../Assets/pinkPic.jpg');*/
+    height: 18.2rem;
+    background-color: rgb(222, 149, 144);
     padding: 2rem;
-    color: rgb(245, 214, 214);
+    color: rgb(255, 255, 255);
+    
 }
+
 .top-container p{
     width: 60%;
 }
@@ -117,7 +136,7 @@ border-spacing: 0;
 /*navigation*/
 #nav-bar{
     display: flex;
-    background-image: radial-gradient(rgba(241, 100, 211, 0.753), rgb(235, 57, 205), rgb(252, 157, 223)) ;
+    background-color:rgb(222, 149, 144);
     width: 100%;
     height: 4rem;
     justify-content: flex-start;
@@ -160,6 +179,8 @@ border-spacing: 0;
     flex-direction: column;
     align-items: center;
     border-radius: 25px;
+    /*height: 4rem;*/
+    overflow: hidden;
 }
 .card-image{
     width: 90%;
@@ -171,4 +192,45 @@ border-spacing: 0;
     font-size: 2rem;
     text-decoration: underline;
     color:#DE9590;
+}
+
+.appear{
+    height: 40rem;
+}
+.card2{
+    background-color: aliceblue;
+    padding: .4rem;
+    margin: .5rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 25px;
+    /*height: 4rem;*/
+    overflow: hidden;
+}
+.card2 .card-text{
+    font-size: 2rem;
+    text-decoration: underline;
+    color:#DE9590;
+}
+.card2-image{
+    width: 90%;
+    padding-top: .5rem;
+    height: 600px;
+    border-radius: 15px;
+}
+.ab-parts{
+    display: flex;
+    width:100%;
+    margin: 1rem;
+    justify-content: space-evenly;
+}
+.abu-tab{
+    background-color: #71CBC4;
+    border-radius: 15px;
+    font-size: 1.6rem;
+    padding: 1rem;
+    border: 2px solid #DE9590;
+    color:aliceblue;
 }
